@@ -115,7 +115,7 @@ function process(text) {
     var _scores = htmlString.find(".csgo_scoreboard_score");
     var scoreboardArray = SelectorToArray(_scores);
 
-    var _nameData = htmlString.find("td.inner_name:contains('TheWillderness')");
+    var _nameData = htmlString.find("td.inner_name:contains('your-player-name')"); //add own name
     var _pingData = _nameData.find("+ td");
     var pingArray = SelectorToArray(_pingData);
     var _killData = _nameData.find("+ td + td");
