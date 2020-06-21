@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>CSGO Scraper</title>
+    <script src="./js/fileProcessing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+
+<body id="body-index">
+    <ul class="u-list">
+        <li class="list-item"><a href="index.html">Home</a></li>
+    </ul>
+    <div id="input-div">
+        <label for="input-file" class="custom-file-upload">
+            <input type="file" id="input-file" onchange="loadFileAsText()"> Upload HTML File
+        </label>
+    </div>
+    <div id="stats-div">
+    </div>
+    <canvas class="charts" id="mapChart" width="500" height="500"></canvas>
+    <canvas class="charts" id="dateChart" width="500" height="500"></canvas>
+</body>
+
+</html>

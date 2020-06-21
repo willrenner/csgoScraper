@@ -1,0 +1,82 @@
+#stats-div {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.charts {
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#body-index {
+    background-image: url(./resources/minimalCsgoBackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.u-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.list-item {
+    float: left;
+}
+
+.list-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#input-div {
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: 30px;
+    padding: 50px;
+}
+
+#input-div :hover {
+    border-color: rgb(153, 153, 153);
+    border-width: 10px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom-file-upload {
+    border: 2px solid gray;
+    color: white;
+    background-color: black;
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px;
+    background-image: url(./resources/knife.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
