@@ -7,4 +7,4 @@ manualy load your match history by continuously clicking "Load More History". Yo
 optionally download "Ban Checker for Steam" from the chrome store to have your whole match history
 automatically loaded. Once all matches have been loaded, right click the page and save it as a .txt or .html file. Now, you can upload this file to
 my CSGO stat scraper to view your stats. Note that steam has deleted all data before
-2017 to reclaim storage space. My CSGO stat scraper is made with HTML/CSS and javascript (jQuery, chart.js).
+2017 to reclaim storage space. My CSGO stat scraper is made with HTML/CSS and Javascript (jQuery, chart.js).
